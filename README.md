@@ -26,13 +26,24 @@ Summary, the natural process can be seen as a 6-step procedure, specifically:
 6. Elitism and update population 
 
 # 3. Analysis Genetic algorithm
-## 3.1 Population initialization and fitness
+## 3.1 Population initialization 
+The population represents for a group of individuals among them each individual is the possible solution to the problem we are interested in. Indeed, one of them will be the final solution. 
+
+One individual is represented by a chromosome that are encoded by a string of genes. Gene can be considered the smallest part and can not break into smaller. Chromosome is also be seen as unknowns that needed to be found. Although unknowns by values, but the length and the range of each gene will be decided by human-being. 
 
 <p align="center">
   <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/Population_fitness.png" />
 </p>
 
+The gene can be defined in many different ways depending on the real problem that one is facing. For example:
+* If the problem related to binary variable: gene is {0, 1},
+* If the problem related to integer variable: gene is {0, 1, 2, 3, 4, 5, 6, 7, 8, 9},
+* If the problem related to alphabet variable: gene is {A, B, C, D, ...., X, Y, Z},
+* and so on
+
 ## 3.2 Fitness
+
+
 
 <p align="center">
   <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/fitness.png" />
