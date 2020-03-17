@@ -15,20 +15,20 @@ The reproduction process is comprised of many steps
 # 3. Analysis Genetic algorithm
 ## 3.1
 <p align="center">
-  <img  width="600" height="200" src="https://github.com/MossyFighting/Optimization/blob/master/images/Population_fitness.png" />
+  <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/Population_fitness.png" />
 </p>
 ## 3.2
 <p align="center">
-  <img  width="600" height="200" src="https://github.com/MossyFighting/Optimization/blob/master/images/fitness.png" />
+  <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/fitness.png" />
 </p>
 ## 3.3
 <p align="center">
-  <img  width="600" height="200" src="https://github.com/MossyFighting/Optimization/blob/master/images/Crossover.png" />
+  <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/Crossover.png" />
 </p>
 ## 3.4
 
 <p align="center">
-  <img  width="600" height="200" src="https://github.com/MossyFighting/Optimization/blob/master/images/Mutation.png" />
+  <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/Mutation.png" />
 </p>
 
 ## 3.5
@@ -36,5 +36,5 @@ The reproduction process is comprised of many steps
 # 4. Verification Example
 
 <p align="center">
-  <img  width="600" height="200" src="https://github.com/MossyFighting/Optimization/blob/master/images/run_example.png" />
+  <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/run_example.png" />
 </p>
