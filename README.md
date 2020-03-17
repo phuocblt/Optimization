@@ -91,7 +91,7 @@ Elitism is an important phase to double check between the old parents, the indiv
      Elitism|
  TERMINATION is satisfied|
  END|
--------------------------------
+
 # 5. Verification Example
 In this verification step, we will define a problem and check whether our algorithm can work or not. If it works, how optimal the results are, optimal or sub-optimal.
 
