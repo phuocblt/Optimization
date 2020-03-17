@@ -79,16 +79,19 @@ For example, in the figure the second, fifth and eighth gene of I2_new are flipp
 ## 3.6 Elitism and update population
 Elitism is an important phase to double check between the old parents, the individuals in the population and the new born children created. Because it is not sure that the mixed genes between best fitness pair(s) always results in superb children. Then, with elitism, one reassure that the good traits still prevail in the population instead of being eliminated. That is indeed a good practice for the GA. 
 
-# 4. The GA in pseudocode      
-BEGIN GA
-Initialize population
-Compute fitness
-LOOP UNTIL
+# 4. The GA in pseudocode 
+
+BEGIN GA<br/>
+Initialize population<br/>
+Compute fitness<br/>
+LOOP UNTIL<br/>
+
 * Crossover
 * Mutation
 * Compute fitness
 * Elitism
-TERMINATION is satisfied
+
+TERMINATION is satisfied<br/>
 END
 
 # 5. Verification Example
