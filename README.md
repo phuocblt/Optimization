@@ -112,7 +112,7 @@ Execute the file 'gA.py' with setting number of iteration 40. We can see that at
   <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/run_example.png" />
 </p>
 
-## Verify the results by using brute force method
+## 5.3 Verify the results by using brute force method
 
 From the file 'verification_solution.py', because variable x contain 10 state (<img src="https://render.githubusercontent.com/render/math?math=x = %5B x_1 %2C x_2 %2C x_3 %2C x_4 %2C x_5 %2C x_6 %2C x_7 %2C x_8 %2C x_9 %2C x_10 %5D">) and each state have only two variable 0 or 1. Therefore, in total we will have (<img src="https://render.githubusercontent.com/render/math?math=2^10 = 1024 ]">) possible solutions. 
 
@@ -124,4 +124,9 @@ By using the brute force method, we go through all possible solution, compute al
 
 Indeed, from the figure, we can confirm that the solution in using brute force method give us the same minimum fitness at x =[0, 0, 1, 1, 0, 1, 0, 1, 1, 0] compared to the ones in the GA method.
 
+# 6. Conclusions
+Indeed, the GA is really efficient when dealing with the optimization problem with binary problems or more. As we can see, in the worst case we need to go through 1024 possible solutions to find the optimum one. But with the GA algorithm, less than 40 iterations, the minimum is shown. 
 
+Imagine, if the number of genes or length of chromosome increase to 20, then we need to go through all (<img src="https://render.githubusercontent.com/render/math?math=2^40 = 4e12 ]">) possible solutions in oder to know the optimum solution. It is impossible to do with computer.
+
+Finally, the GA is the good one to try when dealing with optimization.
