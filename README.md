@@ -101,9 +101,7 @@ In this verification step, we will define a problem and check whether our algori
 The problem we would like to solve is related to the binary variable, with length of ten genes. Cost or fitness function can be defined as follows:
 we would like to minimize the function:
 
-$$
-\frac{n!}{k!(n-k)!} = {n \choose k}
-$$
+<img src="https://render.githubusercontent.com/render/math?math=f(x) = 1.1 \times x_1 + 1.7 \times x_2 - 2.2 \times x_3 ">
 
 <p align="center">
   <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/run_example.png" />
