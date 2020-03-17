@@ -114,8 +114,14 @@ Execute the file 'gA.py' with setting number of iteration 40. We can see that at
 
 ## Verify the results by using brute force method
 
-From the file 'verification_solution.py', because variable x contain 10 state from <img src="https://render.githubusercontent.com/render/math?math= x_1 "> to src="https://render.githubusercontent.com/render/math?math= x_10 "> , and each state have only two variable 0 or 1. Therefore, in total we will have src="https://render.githubusercontent.com/render/math?math= 2^10 "> possible solutions. 
+From the file 'verification_solution.py', because variable x contain 10 state from <img src="https://render.githubusercontent.com/render/math?math= x_1 "> to src="https://render.githubusercontent.com/render/math?math=x_10"> , and each state have only two variable 0 or 1. Therefore, in total we will have src="https://render.githubusercontent.com/render/math?math=2^10"> possible solutions. 
 
 By using the brute force method, we go through all possible solution, compute all possible fitnesses. Then, filter out the minimum value, and double check with the results returning from the GA. 
 
-Indeed, the solution in using brute force method give us the same minimum fitness at x =[0, 0, 1, 1, 0, 1, 0, 1, 1, 0]. 
+<p align="center">
+  <img  width="600" height="200" src="https://github.com/MossyFighting/Optimization/blob/master/images/verification_result.png" />
+</p>
+
+Indeed, from the figure, we can confirm that the solution in using brute force method give us the same minimum fitness at x =[0, 0, 1, 1, 0, 1, 0, 1, 1, 0] compared to the ones in the GA method.
+
+
