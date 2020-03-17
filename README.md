@@ -103,6 +103,19 @@ we would like to minimize the function:
 
 <img src="https://render.githubusercontent.com/render/math?math=f(x) = 1.1 \times x_1 %2B 1.7 \times x_2 - 2.2 \times x_3 - 1.6 \times x_4 %2B 0.4 \times x_5 - 3.1 \times x_6 %2B 4.3 \times x_7 - 0.1 \times x_8 - 3.5 \times x_9 %2B 2.4 \times x_10">
 
+And the condition is each element of <img src="https://render.githubusercontent.com/render/math?math= x = [ x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10 ]"> must be 0 or 1. 
+
+## 5.2 results 
+Execute the file 'gA.py' with setting number of iteration 40. We can see that at each iteration, the fitness value is decreased to smaller. And finally, it saturated when reaching minimum fitness at -10.5 with x =[0, 0, 1, 1, 0, 1, 0, 1, 1, 0].
+
 <p align="center">
   <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/run_example.png" />
 </p>
+
+## Verify the results by using brute force method
+
+From the file 'verification_solution.py', because variable x contain 10 state from <img src="https://render.githubusercontent.com/render/math?math= x_1 "> to src="https://render.githubusercontent.com/render/math?math= x_10 "> , and each state have only two variable 0 or 1. Therefore, in total we will have src="https://render.githubusercontent.com/render/math?math= 2^10 "> possible solutions. 
+
+By using the brute force method, we go through all possible solution, compute all possible fitnesses. Then, filter out the minimum value, and double check with the results returning from the GA. 
+
+Indeed, the solution in using brute force method give us the same minimum fitness at x =[0, 0, 1, 1, 0, 1, 0, 1, 1, 0]. 
