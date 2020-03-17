@@ -11,20 +11,28 @@ The GA is strongly inspired by the natural selection that are depicted in the fo
   <img  width="600" height="200" src="https://github.com/MossyFighting/Optimization/blob/master/images/GA_general.png" />
 </p>
 
-The reproduction process is comprised of many steps
+The reproduction process is comprised of many steps, selected pair (or many pairs) interact(s) with each other, producing some offsprings by using some methods (i.g., crossover), mutate some genes with hope to create superb genes if possible (i. g., flip gene if some conditions are satisfied), and reassure only mixed traits of those pairs actually better than pair(s) themself by comparision them with their mixed genes. 
+Finally, the population is updated by adding some new and superb gene or still keep the old ones if the new one is not as expected. Then the loop is continuing until some criteria are met and stop. 
+
 # 3. Analysis Genetic algorithm
 ## 3.1
+
 <p align="center">
   <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/Population_fitness.png" />
 </p>
+
 ## 3.2
+
 <p align="center">
   <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/fitness.png" />
 </p>
+
 ## 3.3
+
 <p align="center">
   <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/Crossover.png" />
 </p>
+
 ## 3.4
 
 <p align="center">
@@ -32,7 +40,9 @@ The reproduction process is comprised of many steps
 </p>
 
 ## 3.5
+
 ## 3.6
+
 # 4. Verification Example
 
 <p align="center">
