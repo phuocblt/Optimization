@@ -114,7 +114,7 @@ Execute the file 'gA.py' with setting number of iteration 40. We can see that at
 
 ## Verify the results by using brute force method
 
-From the file 'verification_solution.py', because variable x contain 10 state from <img src="https://render.githubusercontent.com/render/math?math= x_1 "> to src="https://render.githubusercontent.com/render/math?math=x_10"> , and each state have only two variable 0 or 1. Therefore, in total we will have src="https://render.githubusercontent.com/render/math?math=2^10"> possible solutions. 
+From the file 'verification_solution.py', because variable x contain 10 state (<img src="https://render.githubusercontent.com/render/math?math= x = [ x_1, x_2, x_3, x_4, x_5, x_6, x_7, x_8, x_9, x_10 ]">) and each state have only two variable 0 or 1. Therefore, in total we will have (<img src="https://render.githubusercontent.com/render/math?math=2^10 = 1024 ]">) possible solutions. 
 
 By using the brute force method, we go through all possible solution, compute all possible fitnesses. Then, filter out the minimum value, and double check with the results returning from the GA. 
 
