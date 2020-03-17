@@ -98,6 +98,12 @@ END
 In this verification step, we will define a problem and check whether our algorithm can work or not. If it works, how optimal the results are, optimal or sub-optimal.
 
 ## 5.1 problem statement
+The problem we would like to solve is related to the binary variable, with length of ten genes. Cost or fitness function can be defined as follows:
+we would like to minimize the function:
+
+$$
+\frac{n!}{k!(n-k)!} = {n \choose k}
+$$
 
 <p align="center">
   <img   src="https://github.com/MossyFighting/Optimization/blob/master/images/run_example.png" />
