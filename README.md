@@ -130,3 +130,7 @@ Indeed, the GA is really efficient when dealing with the optimization problem wi
 Imagine, if the number of genes or length of chromosome increase to 20, then we need to go through all (<img src="https://render.githubusercontent.com/render/math?math=2^40 = 4e12 ]">) possible solutions in oder to know the optimum solution. It is impossible to do with computer.
 
 Finally, the GA is the good one to try when dealing with optimization.
+
+# References
+1. Adaptation in Natural and Artificial Systems, by J.H. Holland. 1975.
+2. J. H. Holland, "Genetic algorithms", Sci. Amer., pp. 66-72, July 1992.
